@@ -1,0 +1,527 @@
+Qual é a capital da Alemanha?
+A. Berlim
+B. Hamburgo 
+C. Munique 
+D. Colônia 
+E. Frankfurt 
+ANSWER: A
+
+Qual é a capital da Itália?
+A. Roma
+B. Milão
+C. Nápoles
+D. Turim
+E. Palermo
+ANSWER: A
+
+Qual é a capital da França?
+A. Marselha
+B. Nantes
+C. Paris
+D. Estrasburgo
+E. Toulouse
+ANSWER: C
+
+Qual é a capital da Espanha?
+A. Madri
+B. Barcelona
+C. Valência
+D. Sevilha
+E. Bilbao
+ANSWER: A
+
+Qual é a capital de Portugal?
+A. Lisboa
+B. Porto
+C. Braga
+D. Coimbra
+E. Évora
+ANSWER: A
+
+Qual é a capital da Inglaterra?
+A. Londres
+B. Liverpool
+C. Manchester
+D. Leeds
+E. Sheffield
+ANSWER: A
+
+Qual é a capital da Áustria?
+A. Viena
+B. Salzburgo
+C. Innsbruck
+D. Linz
+E. Graz
+ANSWER: A
+
+Qual é a capital da Bélgica?
+A. Bruxelas
+B. Bruges
+C. Antuérpia
+D. Gante
+E. Lovaina
+ANSWER: A
+
+Qual é a capital da Dinamarca?
+A. Copenhagen
+B. Ans
+C. Ebeltoft
+D. Haslev
+E. Lemvig
+ANSWER: A
+
+Qual é a capital da Escócia?
+A. Edimburgo
+B. Glasgow
+C. Inverness
+D. Aberdeen
+E. Dundee
+ANSWER: A
+
+Qual é a capital da Grécia?
+A. Atenas
+B. Tessalônica
+C. Pireu
+D. Patras
+E. Heracilão
+ANSWER: A
+
+Qual é a capital da Holanda?
+A. Amsterdã
+B. Roterdão
+C. Haia
+D. Eindhoven
+E. Maastricht
+ANSWER: A
+
+Qual é a capital da Irlanda?
+A. Dublin
+B. Galway
+C. Belfast
+D. Waterford
+E. Wexford
+ANSWER: A
+
+Qual é a capital da Irlanda do Norte?
+A. Belfast
+B. Derry
+C. Ballymena
+D. Omagh
+E. Comber
+ANSWER: A
+
+Qual é a capital da Noruega?
+A. Oslo
+B. Bergen
+C. Alesund
+D. Drammen
+E. Trondheim
+ANSWER: A
+
+Qual é a capital da Polônia?
+A. Varsóvia
+B. Cracóvia
+C. Gdansk
+D. Wroclaw
+E. Poznan
+ANSWER: A
+
+Qual é a capital da República Checa?
+A. Praga
+B. Brno
+C. Ostrava
+D. Olomouc
+E. Plzen
+ANSWER: A
+
+Qual é a capital da Suécia?
+A. Estocolmo
+B. Gotemburgo
+C. Malmo
+D. Uppsala
+E. Helsingborg
+ANSWER: A
+
+Qual é a capital da Hungria?
+A. Budapeste
+B. Debrecen
+C. Miskolc
+D. Szeged
+E. Sopron
+ANSWER: A
+
+Qual é a capital da Suíça?
+A. Berna
+B. Zurique
+C. Genebra
+D. Basileia
+E. Lausana
+ANSWER: A
+
+Qual é a capital da Eslováquia?
+A. Bratislava
+B. Nitra
+C. Kosice
+D. Presov
+E. Martin
+ANSWER: A
+
+Qual é a capital da Finlândia?
+A. Helsínque
+B. Tampere
+C. Lahti
+D. Turku
+E. Oulu
+ANSWER: A
+
+Qual é a capital da Argentina?
+A. Buenos Aires
+B. Bariloche
+C. Mendoza
+D. Córdova
+E. Rosário
+ANSWER: A
+
+Qual é a capital do Canadá?
+A. Ottawa
+B. Toronto
+C. Vancouver
+D. Montreal
+E. Quebec
+ANSWER: A
+
+Qual é a capital da Austrália?
+A. Camberra
+B. Sydney
+C. Melbourne
+D. Brisbane
+E. Perth
+ANSWER: A
+
+Qual é a capital da Nova Zelândia?
+A. Wellington
+B. Auckland
+C. Queenstown
+D. Tauranga
+E. Hamilton
+ANSWER: A
+
+Qual é a capital da Venezuela?
+A. Caracas
+B. Valencia
+C. Maracaibo
+D. Mérida
+E. Barquisimeto
+ANSWER: A
+
+Qual é a capital do Egito?
+A. Cairo
+B. Alexandria
+C. Gizé
+D. Tebas
+E. Luxor
+ANSWER: A
+
+Qual é a capital da Nicarágua?
+A. Manágua
+B. Granada
+C. León
+D. Masaya
+E. Estelí
+ANSWER: A
+
+Qual é a capital de Cuba?
+A. Havana
+B. Santiago de Cuba
+C. Holguin
+D. Santa Clara
+E. Bayamo
+ANSWER: A
+
+Qual é a capital da Coréia do Sul?
+A. Seul
+B. Busan
+C. Daegu
+D. Incheon
+E. Daejeon
+ANSWER: A
+
+Qual é a capital do Japão?
+A. Tóquio
+B. Quioto
+C. Osaka
+D. Nara
+E. Yokohama
+ANSWER: A
+
+Qual é a capital da Rússia?
+A. Moscou
+B. São Petersburgo
+C. Sóchi
+D. Yakutsk
+E. Samara
+ANSWER: A
+
+Qual é a capital do Chile?
+A. Santiago
+B. Valparaíso
+C. Viña del Mar
+D. Temuco
+E. Concepción
+ANSWER: A
+
+Qual é a capital da Colômbia?
+A. Bogotá
+B. Medellín
+C. Santa Marta
+D. Cáli
+E. Barranquilla
+ANSWER: A
+
+Qual é a capital da Bolívia?
+A. La Paz
+B. Sucre
+C. Cochabamba
+D. Potosí
+E. Oruro
+ANSWER: A
+
+Qual é a capital da Jamaica?
+A. Kingston
+B. Montego Bay
+C. Ocho Rios
+D. Port Antonio
+E. Port Royal
+ANSWER: A
+
+Qual é a capital da China?
+A. Pequim
+B. Xangai
+C. Cantão
+D. Foshan
+E. Hangzhou
+ANSWER: A
+
+Qual é a capital do Equador?
+A. Quito
+B. Cuenca
+C. Guaiaquil
+D. Loja
+E. Ibarra
+ANSWER: A
+
+Qual é a capital do Uruguai?
+A. Montevidéu
+B. Colônia do Sacramento
+C. Punta del Este
+D. Rivera
+E. Salto
+ANSWER: A
+
+Qual é a capital do México?
+A. Cidade do México
+B. Juárez
+C. Guadalajara
+D. Tijuana
+E. Monterrey
+ANSWER: A
+
+Qual é a capital do Paraguai?
+A. Assunção
+B. Ciudad del Este
+C. Encarnación
+D. Luque
+E. San Lorenzo
+ANSWER: A
+
+Qual é a capital da África do Sul?
+A. Pretória
+B. Joanesburgo
+C. Durban
+D. Soweto
+E. Cidade do Cabo
+ANSWER: A
+
+Qual é a capital da Bulgária?
+A. Sófia
+B. Varna
+C. Ruse
+D. Burgas
+E. Lom
+ANSWER: A
+
+Qual é a capital da Tailândia?
+A. Bangkok
+B. Chiang Mai
+C. Pattaya
+D. Phuket
+E. Lopburi
+ANSWER: A
+
+Qual é a capital da Malásia?
+A. Kuala Lumpur
+B. Malaca
+C. George Town
+D. Ipoh
+E. Putrajaya
+ANSWER: A
+
+Qual é a capital do Vietnã?
+A. Hanói
+B. Saigon
+C. Da Nang
+D. Da Lat
+E. Can Tho
+ANSWER: A
+
+Qual é a capital da Romênia?
+A. Bucareste
+B. Sibiu
+C. Bran
+D. Brasov
+E. Sinaia
+ANSWER: A
+
+Qual é a capital de Filipinas?
+A. Manila
+B. Tacloban
+C. Cebu
+D. Davao
+E. Makati
+ANSWER: A
+
+Qual é a capital do Afeganistão?
+A. Cabul
+B. Herat
+C. Taloqan
+D. Candaar
+E. Ghazni
+ANSWER: A
+
+Qual é a capital da Camarões?
+A. Yaoundé
+B. Duala
+C. Maroua
+D. Garoua
+E. Bamenda
+ANSWER: A
+
+Qual é a capital da Costa Rica?
+A. San José
+B. Cartago
+C. Escazú
+D. Heredia
+E. Puntarenas
+ANSWER: A
+
+Qual é a capital da Croácia?
+A. Zagreb
+B. Split
+C. Dubrovnik
+D. Zadar
+E. Trogir
+ANSWER: A
+
+Qual é a capital da Gana?
+A. Acra
+B. Tamale
+C. Kumasi
+D. Tema
+E. Cape Coast
+ANSWER: A
+
+Qual é a capital da Islândia?
+A. Reykjavík
+B. Akureyri
+C. Keflavík
+D. Akranes
+E. Kópavogur
+ANSWER: A
+
+Qual é a capital da Groelândia?
+A. Nuuk
+B. Ilulissat
+C. Qaqortoq
+D. Sisimiut
+E. Qaanaaq
+ANSWER: A
+
+Qual é a capital do Haiti?
+A. Porto Príncipe
+B. Carrefour
+C. Delmas
+D. Les Cayes
+E. Jacimel
+ANSWER: A
+
+Qual é a capital do Iraque?
+A. Bagdá
+B. Moçul
+C. Baçorá
+D. Arbil
+E. Kirkuk
+ANSWER: A
+
+Qual é a capital de Marrocos?
+A. Rabat
+B. Marraquexe
+C. Fez
+D. Casablanca
+E. Tânger
+ANSWER: A
+
+Qual é a capital da Nigéria?
+A. Abuja
+B. Lagos
+C. Kano
+D. Ibadan
+E. Kaduna
+ANSWER: A
+
+Qual é a capital de Omã?
+A. Mascate
+B. Salalah
+C. Sohar
+D. Ibri
+E. Khasab
+ANSWER: A
+
+Qual é a capital da Turquia?
+A. Ankara
+B. Istambul
+C. Bursa
+D. Izmir
+E. Adana
+ANSWER: A
+
+Qual é a capital da Síria?
+A. Damasco
+B. Alepo
+C. Homs
+D. Lataquia
+E. Tadmor
+ANSWER: A
+
+Qual é a capital do Peru?
+A. Lima
+B. Cusco
+C. Arequipa
+D. Trujillo
+E. Nazca
+ANSWER: A
+
+Qual é a capital do Camboja?
+A. Phnom Penh
+B. Siem Reap
+C. Battambang
+D. Sisophon
+E. Ta Khmau
+ANSWER: A
+
+Qual é a capital da Ucrânia?
+A. Kiev
+B. Donetsk
+C. Odessa
+D. Lviv
+E. Carcóvia
+ANSWER: A

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<!-- jQuery -->
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
+<script type="text/javascript">
+  $(document).ready(function () {
+			var loc = window.location.pathname;
+			if(loc.lastIndexOf('/course') == -1)
+				var dir = loc.substring(0, loc.lastIndexOf('/my'));
+			else
+				var dir = loc.substring(0, loc.lastIndexOf('/course'));
+			
+			<!-- img plugin play source -->
+            $("#pluginlogo").attr('src', dir + '/blocks/games/images/plugin_play.gif');
+
+			<!-- actions JS file -->
+			$.getScript(dir + '/blocks/games/js/jquery_block_actions.js');
+        });
+</script>
+
+</head>
+	<body>
+	
+		<img id = "pluginlogo" border="0" alt="Play Games" src="" width="200" height="100">
+
+	</body>
+</html>

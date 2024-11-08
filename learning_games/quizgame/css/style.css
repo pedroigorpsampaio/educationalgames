@@ -1,0 +1,927 @@
+html {
+	-webkit-font-smoothing: antialiased;
+	height: 100%;
+	overflow: hidden;
+	-moz-user-select: none; -webkit-user-select: none; -ms-user-select:none; user-select:none;-o-user-select:none;
+	    cursor: url('../images/mouse_default.png'),     /* Modern browsers    */
+            url('images/mouse_default.cur'),        /* Internet Explorer  */
+            default;    
+	user-drag: none; 
+	-moz-user-drag: none;
+	-webkit-user-drag: none;
+	-ms-user-drag:none; 
+	user-drag:none;
+	-o-user-drag:none;
+}
+
+a[onclick], a:not([name]) { 	cursor: url('../images/mouse_pointer.cur'),     /* Modern browsers    */
+							url('images/mouse_pointer.cur'),        /* Internet Explorer  */
+							default;    /*firefox*/ }
+
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+    outline: none;
+}
+
+button:hover {
+	cursor: url('../images/mouse_pointer.cur'),     /* Modern browsers    */
+	url('images/mouse_pointer.cur'),        /* Internet Explorer  */
+	default;    /*firefox*/
+}
+
+ /* sub bg */
+#container {
+	position: absolute;
+	display: inline;
+	width: 960px;
+	height:664.782px;
+	top: 50%;
+	left: 50%;
+	
+	-webkit-transform: translate(-50%, -50%); /* Safari and Chrome */
+	-moz-transform: translate(-50%, -50%); /* Firefox */
+	-ms-transform: translate(-50%, -50%);/* IE 9 */
+	-o-transform: translate(-50%, -50%); /* Opera */
+	
+	zoom: 1.05;
+
+	-webkit-transform:scale(zoom); /* Safari and Chrome */
+	-moz-transform:scale(zoom); /* Firefox */
+	-ms-transform:scale(zoom); /* IE 9 */
+	-o-transform:scale(zoom); /* Opera */
+	  	
+	padding: 13px 0;
+	box-sizing: border-box;
+	
+	cursor: url('../images/mouse_default.png'),     /* Modern browsers    */
+	url('images/mouse_default.cur'),        /* Internet Explorer  */
+	default;    
+
+}
+
+#header {
+display: inline;
+	position: absolute;
+	top: 0;
+	height: 26px;
+	width: 100%;
+	background:url("../images/header.png") no-repeat;
+	z-index: 5;
+}
+
+#body {
+	background:url("../images/bgsub.png") no-repeat;
+	width: 960px;
+	height: 674px;
+	z-index: -19;
+	overflow:hidden;
+}
+
+#hiddenoverflow {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: -5000px; /* Decrease this value for cross-browser compatibility */
+	overflow: auto;
+}
+
+#content {
+	display: inline;
+	position: absolute;
+	
+	top: 28.5%;
+	left: 7.1%;
+	
+}
+
+/* end of sub bg */
+
+body {
+	background:url("../images/bg.jpg") no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	z-index: -20;
+}
+
+div #content { width: 100px; }
+
+h1, h2, h3 {
+	text-shadow: 1px 1px #000000;
+	font-weight: normal;
+	color: #ffffff;
+	margin: 0px;}
+h1 {
+	font-family: Georgia, Times, serif;
+	font-size: 250%;
+	text-shadow: 1px 1px 1px #000000;
+	padding-bottom: 10px;}
+h2 {
+	font-family: "Gill Sans", Arial, sans-serif;
+	font-size: 90%;
+	text-transform: uppercase;
+	letter-spacing: 0.2em;}
+h3 {
+	color: #ffffff;
+	font-size: 110%;}
+	
+img { -moz-user-select: none; -webkit-user-select: none; -ms-user-select:none; user-select:none;-o-user-select:none;-webkit-user-drag: none;
+ border-style: none; }
+
+gamecolor {
+	color: #fffff0;
+	text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+}	
+
+ntcolor {
+	color: #fffff0;
+	font-family: Arial Black,Arial Bold,Gadget,sans-serif; 
+	text-shadow: -0.74px 0 black, 0 0.74px black, 0.74px 0 black, 0 -0.74px black;
+}	
+	
+p {
+	font-family: Arial, Verdana, sans-serif;
+	line-height: 1.4em;
+	color: #ffffff;}
+p.intro:first-line {
+	text-shadow: 2px 2px #000000;
+	color: #ffffff;
+	font-weight: bold;}
+.credits {
+	font-style: italic;	
+	text-align: right;}
+a {
+	text-decoration: none;}
+a:hover {
+	text-decoration: underline;}
+	
+holder   {}
+holder question {
+	line-height:20px; 
+	padding: 15px;
+	display:block; 	
+	background: #7d30dd;
+	border-color: black;
+	border-style: solid;
+    border-width: 2px;
+}
+
+status {
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffd65e+0,febf04+100;Yellow+3D+%232 */
+	background: rgb(255,214,94); /* Old browsers */
+	background: -moz-linear-gradient(top,  rgba(255,214,94,1) 0%, rgba(254,191,4,1) 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,214,94,1)), color-stop(100%,rgba(254,191,4,1))); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  rgba(255,214,94,1) 0%,rgba(254,191,4,1) 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  rgba(255,214,94,1) 0%,rgba(254,191,4,1) 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  rgba(255,214,94,1) 0%,rgba(254,191,4,1) 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  rgba(255,214,94,1) 0%,rgba(254,191,4,1) 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffd65e', endColorstr='#febf04',GradientType=0 ); /* IE6-9 */
+	line-height:20px; 
+	padding: 15px;
+	display:block; 	
+	border-color: black;
+	border-style: solid;
+    border-width: 2px;
+	color: #fff;
+	font-family: "Arial Black", Gadget, sans-serif;
+	font-size: 150%;
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+div.challengee {
+	background: #ffecb2;
+	line-height:100%; 
+	padding: 15px;
+	display: block; 	
+	border-color: black;
+	border-style: solid;
+    border-width: 1px;
+	border-radius: 10px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+}
+
+div.challengee:hover {
+    -webkit-transform:scale(1.05); /* Safari and Chrome */
+    -moz-transform:scale(1.05); /* Firefox */
+    -ms-transform:scale(1.05); /* IE 9 */
+    -o-transform:scale(1.05); /* Opera */
+     transform:scale(1.05);
+	cursor: url('../images/mouse_pointer.cur'),     /* Modern browsers    */
+	url('images/mouse_pointer.cur'),        /* Internet Explorer  */
+	default;    /*firefox*/
+}
+
+div.challengee:active {
+    -webkit-transform:scale(.95); /* Safari and Chrome */
+    -moz-transform:scale(.95); /* Firefox */
+    -ms-transform:scale(.95); /* IE 9 */
+    -o-transform:scale(.95); /* Opera */
+     transform:scale(.95);
+}
+
+.challengee .overall { float:right } 
+
+div.notifications {
+	background: #f09c40;
+	line-height:100%; 
+	padding: 15px;
+	display: block; 	
+	border-color: black;
+	border-style: solid;
+    border-width: 1px;
+	border-radius: 10px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+}
+
+div.notifications:hover {
+    -webkit-transform:scale(1.05); /* Safari and Chrome */
+    -moz-transform:scale(1.05); /* Firefox */
+    -ms-transform:scale(1.05); /* IE 9 */
+    -o-transform:scale(1.05); /* Opera */
+     transform:scale(1.05);
+	cursor: url('../images/mouse_pointer.cur'),     /* Modern browsers    */
+	url('images/mouse_pointer.cur'),        /* Internet Explorer  */
+	default;    /*firefox*/
+}
+
+div.notifications:active {
+    -webkit-transform:scale(.95); /* Safari and Chrome */
+    -moz-transform:scale(.95); /* Firefox */
+    -ms-transform:scale(.95); /* IE 9 */
+    -o-transform:scale(.95); /* Opera */
+     transform:scale(.95);
+}
+
+.notifications .type { float:right } 
+
+.clickable:hover {
+    -webkit-transform:scale(1.05); /* Safari and Chrome */
+    -moz-transform:scale(1.05); /* Firefox */
+    -ms-transform:scale(1.05); /* IE 9 */
+    -o-transform:scale(1.05); /* Opera */
+     transform:scale(1.05);
+	cursor: url('../images/mouse_pointer.cur'),     /* Modern browsers    */
+	url('images/mouse_pointer.cur'),        /* Internet Explorer  */
+	default;    /*firefox*/
+}
+
+.clickable:active {
+    -webkit-transform:scale(.95); /* Safari and Chrome */
+    -moz-transform:scale(.95); /* Firefox */
+    -ms-transform:scale(.95); /* IE 9 */
+    -o-transform:scale(.95); /* Opera */
+     transform:scale(.95);
+}
+
+listfont {
+	color: #e68900;
+	font-family: Georgia, Times, serif;
+}	
+
+listfont2 {
+	color: #ffffc2;
+	font-family: Georgia, Times, serif;
+}	
+
+challengefont {
+	color: #fff2d7;
+	font-family: "Arial Black", Gadget, sans-serif;
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}	
+
+#feedback {
+	color: #ffffff;
+	font-family: Georgia, Times, serif;
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+	
+	display:inline-block; 
+	line-height:20%; 
+	text-align: center;
+	padding: 15px;
+	background: #1ca8d8;
+	border-color: black;
+	border-style: solid;
+    border-width: 2px;
+}
+
+#feedback:hover {
+    -webkit-transform:scale(1.05); /* Safari and Chrome */
+    -moz-transform:scale(1.05); /* Firefox */
+    -ms-transform:scale(1.05); /* IE 9 */
+    -o-transform:scale(1.05); /* Opera */
+     transform:scale(1.05);
+	cursor: url('../images/mouse_pointer.cur'),     /* Modern browsers    */
+	url('images/mouse_pointer.cur'),        /* Internet Explorer  */
+	default;    /*firefox*/
+}
+
+#feedback:active {
+    -webkit-transform:scale(.95); /* Safari and Chrome */
+    -moz-transform:scale(.95); /* Firefox */
+    -ms-transform:scale(.95); /* IE 9 */
+    -o-transform:scale(.95); /* Opera */
+     transform:scale(.95);
+}
+
+correctfeed {
+	color: #ffffff;
+	font-family: Georgia, Times, serif;
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+	
+	display:block; 
+	line-height:100%; 
+	text-align: center;
+	padding: 15px;
+	background: #10AF00;
+	border-radius: 10px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-color: black;
+	border-style: solid;
+    border-width: 2px;
+}
+
+incorrectfeed {
+	color: #ffffff;
+	font-family: Georgia, Times, serif;
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+	
+	display:block; 
+	line-height:100%; 
+	text-align: center;
+	padding: 15px;
+	background: #cc0000;
+	border-radius: 10px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-color: black;
+	border-style: solid;
+    border-width: 2px;
+}
+
+actionfeed {
+	color: #ffffff;
+	font-family: Georgia, Times, serif;
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+	
+	display:block; 
+	line-height:100%; 
+	text-align: center;
+	padding: 15px;
+	background: #ff8a00;
+	border-radius: 10px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-color: black;
+	border-style: solid;
+    border-width: 2px;
+}
+
+answer {
+	display:block; 
+	line-height:115%; 
+	text-align: center;
+	padding: 15px;
+	background: #1ca8d8;
+	border-radius: 10px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-color: black;
+	border-style: solid;
+    border-width: 2px;
+}
+
+answer:hover {
+    -webkit-transform:scale(1.05); /* Safari and Chrome */
+    -moz-transform:scale(1.05); /* Firefox */
+    -ms-transform:scale(1.05); /* IE 9 */
+    -o-transform:scale(1.05); /* Opera */
+     transform:scale(1.05);
+	cursor: url('../images/mouse_pointer.cur'),     /* Modern browsers    */
+	url('images/mouse_pointer.cur'),        /* Internet Explorer  */
+	default;    /*firefox*/
+}
+
+answer:active {
+    -webkit-transform:scale(.95); /* Safari and Chrome */
+    -moz-transform:scale(.95); /* Firefox */
+    -ms-transform:scale(.95); /* IE 9 */
+    -o-transform:scale(.95); /* Opera */
+     transform:scale(.95);
+}
+	
+.box {
+	position: absolute;
+	width: 300px;
+	height: 150px;
+	background: #666699;
+	border-radius: 10px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+}
+
+/**** TOOLTIP STYLES ****/
+a.tooltip{
+-moz-user-select: none; -webkit-user-select: none; -ms-user-select:none; user-select:none;-o-user-select:none;-webkit-user-drag: none;
+  position:relative; 
+  font-size:12px; 
+  color:#039;
+  text-decoration:none;
+  }
+
+a.tooltip:hover{
+background:transparent;
+color:#f00;
+z-index:25; 
+
+}
+a.tooltip span{display: none
+}
+
+a.tooltip:hover span{ 
+display:block;
+position:absolute;
+text-align: center;
+width:75px; 
+top:-62.5%;
+left:-17%;
+font-size: 12px;
+padding:5px;
+border:1px solid #999;
+background:#e0ffff; 
+color:#000;
+}
+
+a.tooltip2{
+	-moz-user-select: none; -webkit-user-select: none; -ms-user-select:none; user-select:none;-o-user-select:none;-webkit-user-drag: none;
+	position: absolute;
+	display: inline;
+	font-size:12px; 
+	color:#039;
+	text-decoration:none;
+
+	bottom: 2.25%;
+}
+
+exit {
+	position: absolute;
+	display: inline;
+	
+	top: 105%;
+	left: -17%;
+}
+
+a.tooltip2:hover{
+background:transparent;
+color:#f00;
+z-index:25; 
+
+}
+a.tooltip2 span{display: none
+}
+
+a.tooltip2:hover span{ 
+display:block;
+position:absolute;
+text-align: center;
+width:75px; 
+top:-13px;
+margin-right:0%;
+font-size: 12px;
+padding:5px;
+border:1px solid #999;
+background:#e0ffff; 
+color:#000;
+}
+    
+
+/**** END OF TOOLTIP STYLES ****/
+
+.unselectable {
+ -moz-user-select: none; -webkit-user-select: none; -ms-user-select:none; user-select:none;-o-user-select:none;
+}
+
+.group3 {
+	float:center;
+}
+.group3 .right { float:right }
+.group3 .center { float:center }
+.group3 .left { float:left }
+
+
+.fixed {
+    position:fixed;
+    top:0px;
+}
+.paddingTop{
+    padding-top:110px;
+}
+
+/* Create the animation for the stamp 
+	with good cross compatibility  */
+@-webkit-keyframes pump {
+	0% 
+	{
+		-webkit-transform:scale(1.05); /* Safari and Chrome */
+		-moz-transform:scale(1.05); /* Firefox */
+		-ms-transform:scale(1.05); /* IE 9 */
+		-o-transform:scale(1.05); /* Opera */
+		transform: scale(1.05); 
+	}
+	50%
+	{ 
+		-webkit-transform:scale(.95); /* Safari and Chrome */
+		-moz-transform:scale(.95); /* Firefox */
+		-ms-transform:scale(.95); /* IE 9 */
+		-o-transform:scale(.95); /* Opera */
+		transform: scale(.95); 
+	}
+	100% 
+	{ 
+		-webkit-transform:scale(1.05); /* Safari and Chrome */
+		-moz-transform:scale(1.05); /* Firefox */
+		-ms-transform:scale(1.05); /* IE 9 */
+		-o-transform:scale(1.05); /* Opera */
+		transform: scale(1.05); 
+	}
+}
+@-moz-keyframes pump {
+	0% 
+	{
+		-webkit-transform:scale(1.05); /* Safari and Chrome */
+		-moz-transform:scale(1.05); /* Firefox */
+		-ms-transform:scale(1.05); /* IE 9 */
+		-o-transform:scale(1.05); /* Opera */
+		transform: scale(1.05); 
+	}
+	50%
+	{ 
+		-webkit-transform:scale(.95); /* Safari and Chrome */
+		-moz-transform:scale(.95); /* Firefox */
+		-ms-transform:scale(.95); /* IE 9 */
+		-o-transform:scale(.95); /* Opera */
+		transform: scale(.95); 
+	}
+	100% 
+	{ 
+		-webkit-transform:scale(1.05); /* Safari and Chrome */
+		-moz-transform:scale(1.05); /* Firefox */
+		-ms-transform:scale(1.05); /* IE 9 */
+		-o-transform:scale(1.05); /* Opera */
+		transform: scale(1.05); 
+	}
+}
+@-o-keyframes pump {
+	0% 
+	{
+		-webkit-transform:scale(1.05); /* Safari and Chrome */
+		-moz-transform:scale(1.05); /* Firefox */
+		-ms-transform:scale(1.05); /* IE 9 */
+		-o-transform:scale(1.05); /* Opera */
+		transform: scale(1.05); 
+	}
+	50%
+	{ 
+		-webkit-transform:scale(.95); /* Safari and Chrome */
+		-moz-transform:scale(.95); /* Firefox */
+		-ms-transform:scale(.95); /* IE 9 */
+		-o-transform:scale(.95); /* Opera */
+		transform: scale(.95); 
+	}
+	100% 
+	{ 
+		-webkit-transform:scale(1.05); /* Safari and Chrome */
+		-moz-transform:scale(1.05); /* Firefox */
+		-ms-transform:scale(1.05); /* IE 9 */
+		-o-transform:scale(1.05); /* Opera */
+		transform: scale(1.05); 
+	}
+}
+
+@keyframes pump {
+	
+	0% 
+	{
+		-webkit-transform:scale(1.05); /* Safari and Chrome */
+		-moz-transform:scale(1.05); /* Firefox */
+		-ms-transform:scale(1.05); /* IE 9 */
+		-o-transform:scale(1.05); /* Opera */
+		transform: scale(1.05); 
+	}
+	50%
+	{ 
+		-webkit-transform:scale(.95); /* Safari and Chrome */
+		-moz-transform:scale(.95); /* Firefox */
+		-ms-transform:scale(.95); /* IE 9 */
+		-o-transform:scale(.95); /* Opera */
+		transform: scale(.95); 
+	}
+	100% 
+	{ 
+		-webkit-transform:scale(1.05); /* Safari and Chrome */
+		-moz-transform:scale(1.05); /* Firefox */
+		-ms-transform:scale(1.05); /* IE 9 */
+		-o-transform:scale(1.05); /* Opera */
+		transform: scale(1.05); 
+	}
+}
+
+stamp {
+	position: absolute;
+	z-index: 0;
+	display:inline-block; 
+	padding:8px;
+	
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffd65e+0,febf04+100;Yellow+3D+%232 */
+	background: rgb(255,214,94); /* Old browsers */
+	background: -moz-linear-gradient(top,  rgba(255,214,94,1) 0%, rgba(254,191,4,1) 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,214,94,1)), color-stop(100%,rgba(254,191,4,1))); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  rgba(255,214,94,1) 0%,rgba(254,191,4,1) 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  rgba(255,214,94,1) 0%,rgba(254,191,4,1) 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  rgba(255,214,94,1) 0%,rgba(254,191,4,1) 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  rgba(255,214,94,1) 0%,rgba(254,191,4,1) 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffd65e', endColorstr='#febf04',GradientType=0 ); /* IE6-9 */
+
+	border-radius: 50%;
+	-moz-border-radius: 50%;
+	-webkit-border-radius: 50%;
+	-o-border-radius: 50%;
+	-ms-border-radius: 50%;
+	border-color: black;
+	border-style: solid;
+	border-width: 2px;
+	
+	-webkit-animation: pump 2s infinite; /* Safari 4+ */
+	-moz-animation:   pump 2s infinite; /* Fx 5+ */
+	-o-animation:      pump 2s infinite; /* Opera 12+ */
+	animation:         pump 2s infinite; /* IE 10+, Fx 29+ */
+
+}
+
+div #notification {
+	display: inline;
+	z-index: -1;
+}
+
+#cog {
+    -webkit-transition-property: -webkit-transform;
+    -webkit-transition-duration: 2s;
+    -moz-transition-property: -moz-transform;
+    -moz-transition-duration: 2s;
+    transition-property: transform;
+    transition-duration: 2s;
+}
+
+#cog:hover {
+	transform-origin: 47% 41%;
+    -webkit-animation-name: rotate; 
+    -webkit-animation-duration: 2s; 
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-timing-function: linear;
+    -moz-animation-name: rotate; 
+    -moz-animation-duration: 2s; 
+    -moz-animation-iteration-count: infinite;
+    -moz-animation-timing-function: linear;
+    animation-name: rotate; 
+    animation-duration: 2s; 
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+.elem{
+    position:absolute;
+    top:20%;
+    left:20%;
+    width:0; 
+    height:0;
+    border-style: solid;
+    border-width: 75px;
+    border-color: red blue green orange;
+    -webkit-transition-property: -webkit-transform;
+    -webkit-transition-duration: 1s;
+    -moz-transition-property: -moz-transform;
+    -moz-transition-duration: 1s;
+    transition-property: transform;
+    transition-duration: 1s;
+}
+.elem:hover {
+
+}
+@-webkit-keyframes rotate {
+    from {-webkit-transform: rotate(0deg);}
+    to {-webkit-transform: rotate(360deg);}
+}
+
+@-moz-keyframes rotate {
+    from {-moz-transform: rotate(0deg);}
+    to {-moz-transform: rotate(360deg);}
+}
+
+@keyframes rotate {
+    from {transform: rotate(0deg);}
+    to {transform: rotate(360deg);}
+}
+
+#fixed { position: fixed; width:100%}
+
+
+#timer {
+	 position:absolute; 
+	 margin-top:-4px;
+	 margin-left: 8px;
+}
+
+#rounds {
+	 position:absolute; 
+	 margin-top:-4px;
+	 margin-left: 8px;
+}
+
+#endscore {	 
+	zoom: 1.60;
+	
+}
+	
+#inner {
+    display: table;
+    margin: 0 auto;
+}
+
+.rankimg {
+  position: absolute;
+  display:inline; 
+  width: 40px;
+  height: 40px;
+
+  -webkit-transform: translate(-35%, -30%); /* Safari and Chrome */
+  -moz-transform: translate(-35%, -30%);  /* Firefox */
+  -ms-transform: translate(-35%, -30%); /* IE 9 */
+  -o-transform: translate(-35%, -30%);  /* Opera */	
+}
+
+/* All HTML5 progress enabled browsers */
+progress {
+	/* Turns off styling - not usually needed, but good to know. */
+	appearance: none;
+	-moz-appearance: none;
+	-webkit-appearance: none;
+	/* gets rid of default border in Firefox and Opera. */
+	border: solid black 2px;
+	border-radius: 5px;
+	/* Dimensions */
+	width: 238px;
+	height: 45px;
+}
+
+/* Polyfill */
+progress[role]:after {
+	background-image: none; /* removes default background from polyfill */
+}
+
+/*
+ * Background of the progress bar background
+ */
+
+progress,                          /* Firefox  */ 
+progress[role][aria-valuenow] {    /* Polyfill */
+	border-radius: 5px;
+   background: #cdeb8e !important; /* !important is needed by the polyfill */
+}
+
+/* Chrome */
+progress::-webkit-progress-bar {
+	border-radius: 5px;
+    background: #cdeb8e;
+}
+
+/*
+ * Background of the progress bar value
+ */
+ 
+ /* IE10 */
+progress {
+	border-radius: 5px;
+    color: #47D147;
+}
+
+/* Firefox */
+progress::-moz-progress-bar { 
+	border-radius: 5px;
+    background: #47D147;	
+}
+
+/* Chrome */
+progress::-webkit-progress-value {
+	border-radius: 5px;
+    background: #47D147;
+}
+
+/* Polyfill */
+progress[aria-valuenow]:before  {
+	border-radius: 5px;
+    background: #47D147;
+}
+
+#progwins {
+	display: inline;
+	position: absolute;
+	
+	top: 73.2%;
+	left: 44%;
+	
+	-ms-transform: translate(0%, -20%);/* IE 9 */
+	
+	color: #fffff0;
+	font-family: Arial Black,Arial Bold,Gadget,sans-serif; 
+	text-shadow: -0.74px 0 black, 0 0.74px black, 0.74px 0 black, 0 -0.74px black;
+}
+
+defaultwhite {
+	color: #fffff0;
+	font-family: Arial Black,Arial Bold,Gadget,sans-serif; 
+	text-shadow: -0.74px 0 black, 0 0.74px black, 0.74px 0 black, 0 -0.74px black;
+}
+
+rankfont {
+	color: #fffff0;
+}
+
+#centered5 {
+  position: absolute;
+  max-height: 50px;
+  top: 5%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -5%); /* Safari and Chrome */
+
+  -moz-transform: translate(-50%, -5%); /* Firefox */
+  -ms-transform: translate(-50%, -5%);/* IE 9 */
+  -o-transform: translate(-50%, -5%); /* Opera */
+}
+
+#statusfixed {
+
+    position: absolute;    /* Positions relative to viewport */
+
+	zoom: 1.00;
+
+	-webkit-transform:scale(zoom); /* Safari and Chrome */
+	-moz-transform:scale(zoom); /* Firefox */
+	-ms-transform:scale(zoom); /* IE 9 */
+	-o-transform:scale(zoom); /* Opera */
+
+  
+    z-index: 51;
+
+}
+
+#questionsfixed {
+  position: fixed;
+  width:100%;
+  top: 0%;
+  left: 0%;
+
+  -webkit-transform: translate(11%, 85%); /* Safari and Chrome */
+  -moz-transform: translate(11%, 85%); /* Firefox */
+  -ms-transform: translate(26.8%, 302%);/* IE 9 */
+  -o-transform: translate(11%, 85%); /* Opera */
+  
+  z-index: 5;
+}
+
+#timefixed {
+  position: fixed;
+  width:100%;
+  top: 0%;
+  left: 0%;
+
+  -webkit-transform: translate(55%, 0%); /* Safari and Chrome */
+  -moz-transform: translate(55%, 0%); /* Firefox */
+  -ms-transform: translate(60.8%, 315%);/* IE 9 */
+  -o-transform: translate(55%, 0%); /* Opera */
+  
+  z-index: 5;
+}
+
+#centered50 {
+  position: absolute;
+  top: -17.75em;
+  left: -350%;
+}
+	
+#centered25 {
+  position: absolute;
+  top: -9.6em;
+  left: -350%;
+}
+
+#centered {
+  position: absolute;
+  top: -1000%;
+  left: -350%;
+}
