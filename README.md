@@ -1,4 +1,4 @@
-# About the puglin
+# About the plugin
 
 An educational games plugin for Moodle that aims to help in the learning process by motivating students with gamification aspects.
 Alongside with the plugin, a multiplayer trivia game that uses the plugin capabilities is provided as an example of usage. 
